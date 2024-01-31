@@ -58,10 +58,14 @@ To uninstall the utility, type:
 make uninstall
 ```
 
-## Known issues
+## Known issues to improve on
 
 - Arguments string cannot contain spaces.
-- Organisation Unit parameter fails.
+- Organisation Unit parameter fails. Has been omitted until the above issue works.
+- Opens output folder with `dolphin` *(as I currently use Debian)*. Expand to detect GUI
+- Improve help functionality.
+- The user cannot choose output directory for the archive.
+- Could "zip" be a better archiver for accessibility?
 
 ## Background
 
