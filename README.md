@@ -35,7 +35,7 @@ All installation does is create a symlink within `/usr/local/bin` to the project
 
 ### Running Certify
 
-Simply running this on its own will present the user with an introduction on usage:
+Simply running this on its own will present the user with an introduction to usage:
 
 ```sh
 certify
@@ -48,7 +48,6 @@ certify home.local GB England London Acme.org
 ```
 
 A version check for `openssl` and `tar` will take place on execution.
-
 
 ### Uninstallation
 
