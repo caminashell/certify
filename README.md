@@ -8,10 +8,10 @@ Certify is a simple utility to create self-signed certificates for SSL/TLS to wo
 
 ## Requirements
 
-- `openssl` - To generate RSA keys for the certificates.
-- `tar` - For packing the certificates into an archive file.
-- `make` - To easily run execution scripts on the project.
-- `shc` - For compiling the script for use and/or distribution.
+- `openssl` - To generate RSA keys for the certificates.[^1]
+- `tar` - For packing the certificates into an archive file.[^2]
+- `make` - To easily run execution scripts on the project.[^3]
+- `shc` - For compiling the script for use and/or distribution.[^4]
 
 ### Installation
 
@@ -60,7 +60,7 @@ make uninstall
 ## Known issues to improve on
 
 - Arguments string cannot contain spaces.
-- Organisation Unit parameter fails. Has been omitted until the above issue works.
+- Organisation Unit parameter[^5] fails. Has been omitted until the above issue works.
 - Opens output folder with `dolphin` *(as I currently use Debian)*. Expand to detect GUI
 - Improve help functionality.
 - The user cannot choose output directory for the archive.
@@ -73,3 +73,9 @@ make uninstall
 > *When people noticed this difference, and asked for a copy of the tool, to I passed it through a compiler to protect the source code and prevent other employees messing with it, or worse, claiming credit for coming up with it. Yes, it was that kind of place.*
 >
 > *Now, I am happy to freely share this code for people to comment, learn, or improve upon.*
+
+[^1]: [OpenSSL Cryptography and SSL/TLS Toolkit - https://www.openssl.org](https://www.openssl.org)
+[^2]: [Tar - GNU Project - Free Software Foundation - https://www.gnu.org/software/tar/](https://www.gnu.org/software/tar/)
+[^3]: [Make - GNU Project - Free Software Foundation- https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
+[^4]: [Shell script compiler (shc) - https://neurobin.org/projects/softwares/unix/shc/](https://neurobin.org/projects/softwares/unix/shc/)
+[^5]: [RFC 1779:  A String Representation of Distinguished Names - https://www.rfc-editor.org/rfc/rfc1779#section-2.2](https://www.rfc-editor.org/rfc/rfc1779#section-2.2)
