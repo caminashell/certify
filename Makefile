@@ -4,7 +4,7 @@ make:
 	@mkdir -p bin
 	@shc $(CMD)
 
-secure:
+dist:
 	@mkdir -p bin
 	@shc $(CMD) -r
 
