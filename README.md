@@ -68,9 +68,9 @@ make uninstall
 
 ## Background
 
-> *I originally wrote this utility to help toward resolving web browser HTTPS warnings when building web applications, via [NGINX](https://github.com/nginx).*
+> *I originally wrote this utility to help toward resolving web browser security validation warnings when building web applications, via [NGINX](https://github.com/nginx).*
 >
-> *When people noticed this difference, and asked for a copy of the tool, to I passed it through a compiler to protect the source code and prevent other employees messing with it, or worse, claiming credit for coming up with it. Yes, it was that kind of place.*
+> *When people noticed this difference, and asked for a copy of the tool, I made an effort to passed it through a compiler to protect the source code and prevent other employees messing with it, or worse, claiming credit for coming up with it. Yes, it was that kind of place.*
 >
 > *Now, I am happy to freely share this code for people to comment, learn, or improve upon.*
 
