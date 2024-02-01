@@ -29,7 +29,7 @@ make dist
 make install
 ```
 
-Installing will require elevated permission (and may prompt you to authorisation the action).
+Installing will require elevated permission (and may prompt you to authorise the action).
 
 All installation does is create a symlink within `/usr/local/bin` to the project directory `bin` location, so that you can use the command `certify` globally, at any location.
 
